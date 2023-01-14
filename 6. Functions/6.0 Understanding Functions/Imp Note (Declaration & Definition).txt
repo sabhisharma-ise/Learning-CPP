@@ -1,0 +1,8 @@
+Declaration is promise, defining of function is fulfilling of that promise. 
+You can directly define it (that means you are doing both at same time). 
+But if you try use function before declaring it, it will be compilation 
+error.
+
+Caller should know prototype of callee. That's it.
+
+i.e. The Calling Function should know prototype of Called Function.
